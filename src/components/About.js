@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./images/demo.png";
+import {image} from "./public/logo512.png"; 
 
 function About() {
   return (
@@ -11,4 +11,4 @@ function About() {
   );
 }
 
-export default About;
+export {About};

@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Home from "./Home";  
-import About from "./About";
+import {NavBar} from "./NavBar";
+import {Home} from "./Home";  
+import {About} from "./About";
 
 function App() {
   return (
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export App;
+export {App};
